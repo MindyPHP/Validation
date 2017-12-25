@@ -9,6 +9,12 @@
             "email": "max@mindy-cms.com"
         }
     ],
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true
+    },
     "autoload": {
         "psr-4": {
             "Mindy\\Validation\\": ""
@@ -17,17 +23,16 @@
             "**/Tests/"
         ]
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Mindy\\Validation\\Tests\\": ""
+        }
+    },
     "require": {
-        "php": ">=5.5.9",
-        "symfony/validator": "~3.0"
+        "php": ">=7.0",
+        "symfony/validator": "~3.0 || ~4.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "*"
-    },
-    "minimum-stability": "dev",
-    "extra": {
-        "branch-alias": {
-            "dev-master": "3.6.8-dev"
-        }
+        "phpunit/phpunit": "^6.5"
     }
 }

@@ -11,9 +11,10 @@
 namespace Mindy\Validation\Tests;
 
 use Mindy\Validation\Alphanumeric;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\Validator\Validation;
 
-class AlphanumbericTest extends \PHPUnit_Framework_TestCase
+class AlphanumbericTest extends TestCase
 {
     public function testAlphanumeric()
     {
