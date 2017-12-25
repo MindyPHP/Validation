@@ -1,7 +1,7 @@
 # Validation Component
 
 [![Build Status](https://travis-ci.org/MindyPHP/Validation.svg?branch=master)](https://travis-ci.org/MindyPHP/Validation)
-[![Coverage Status](https://img.shields.io/coveralls/MindyPHP/Validation.svg)](https://coveralls.io/r/MindyPHP/Validation)
+[![codecov](https://codecov.io/gh/MindyPHP/Validation/branch/master/graph/badge.svg)](https://codecov.io/gh/MindyPHP/Validation)
 [![Latest Stable Version](https://poser.pugx.org/mindy/validation/v/stable.svg)](https://packagist.org/packages/mindy/validation)
 [![Total Downloads](https://poser.pugx.org/mindy/validation/downloads.svg)](https://packagist.org/packages/mindy/validation)
 
